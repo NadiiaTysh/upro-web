@@ -154,6 +154,15 @@ export function Navbar() {
                   asChild
                   className="text-white hover:bg-white/10 focus:bg-white/10"
                 >
+                  <Link href="/purchase-upro" className="cursor-pointer">
+                    <LayoutDashboard className="mr-2 h-4 w-4" />
+                    <span>Purchase UPRO</span>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  asChild
+                  className="text-white hover:bg-white/10 focus:bg-white/10"
+                >
                   <Link href="/profile" className="cursor-pointer">
                     <User className="mr-2 h-4 w-4" />
                     <span>Profile</span>

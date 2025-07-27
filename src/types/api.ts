@@ -21,3 +21,8 @@ export interface CreatePostRequest {
   content: string;
   user_id: string;
 }
+
+export interface UProGold {
+  userId: string;
+  upro_gold: number;
+}

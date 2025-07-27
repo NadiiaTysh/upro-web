@@ -1,0 +1,2 @@
+ALTER TABLE accounts
+ADD COLUMN upro_gold FLOAT DEFAULT 0.0 NOT NULL;
